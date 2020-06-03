@@ -14,5 +14,5 @@ func main() {
         c.String(200, "We got one Gin app interface 李鑫!")
     })
 
-    r.Run("localhost:9999")
+    r.Run("0.0.0.0:9999")
 }
